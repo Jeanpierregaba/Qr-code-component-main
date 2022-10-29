@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap');
+
+*{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.MainBlock{
+    position: relative;
+    background-color: hsl(212, 45%, 89%);
+    width: 1440px;
+    height: 750px;
+    margin: auto;
+}
+
+.WhiteBlock{
+    position: absolute;
+    left: 570px;
+    top: 150px;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    border-radius: 6%;
+}
+
+.WhiteBlock img{
+    position: absolute;
+    width: 270px;
+    border-radius: 6%;
+    left: 15px;
+    top: 15px;
+}
+
+.WhiteBlock h3{
+    position: absolute;
+    text-align: center;
+    left: 50px;
+    top: 65%;
+    background-color: white;
+    font-family: 'Outfit';
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.WhiteBlock p{
+    position: absolute;
+    text-align: center;
+    top: 76%;
+    left: 30px;
+    background-color: white;
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1440px) {
+    .MainBlock{
+        position: relative;
+        width: 375px;
+        height: 750px;
+        margin: 0px auto;
+    }
+
+    .WhiteBlock{
+        position: absolute;
+        background-color: white;
+        left: 10%;
+        
+    }
+}
